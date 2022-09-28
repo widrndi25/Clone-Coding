@@ -1,7 +1,20 @@
 body {
   padding: 20px;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  padding-left: 24px;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-left__column {
+  margin: 20px;
 }
 
 .navbar-left-logo {
-  size: 30%;
+  width: 50px;
 }
