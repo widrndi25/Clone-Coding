@@ -7,8 +7,10 @@ body {
   padding-left: 24px;
 }
 
-.navbar-left {
+.navbar-left,
+.navbar-right {
   display: flex;
+  align-items: center;
 }
 
 .navbar-left__column {
@@ -17,4 +19,9 @@ body {
 
 .navbar-left-logo {
   width: 50px;
+}
+
+.sign-in,
+join-now {
+  border: 1px solid black;
 }
