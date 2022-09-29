@@ -1,12 +1,14 @@
 body {
   margin: 0px;
-  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
 }
 
 .navbar {
   padding-left: 100px;
   padding-right: 200px;
-  font-size: 14px;
+  min-width: 1000px;
+  font-size: 18px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -32,6 +34,10 @@ body {
   font-weight: 600;
 }
 
+.navbar-left__column:hover {
+  color: #00754a;
+}
+
 .navbar-left-logo {
   width: 50px;
 }
@@ -41,6 +47,15 @@ body {
   border: 1px solid black;
   border-radius: 30px;
   padding: 5px 20px 5px 20px;
+}
+
+.sign-in:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.join-now:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.7);
 }
 
 .find-a-store {
@@ -54,53 +69,75 @@ body {
   color: white;
 }
 
-.container-people,
-.container-roast,
-.container-fingertips,
-.container-nitro {
+.product-container {
   display: flex;
-  margin: 30px 230px 30px 230px;
-  width: 1440px;
-  height: 630px;
-  background-color: #d4e9e2;
+  margin: 40px 0px 40px 0px;
 }
 
-.container-protein,
-.container-virtual {
+.product {
   display: flex;
-  margin: 30px 230px 30px 230px;
-  width: 1440px;
-  height: 420px;
-  background-color: #016241;
+  max-width: 1440px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.container-people-left img,
-.container-roast-right img,
-.container-fingertips-left img,
-.container-nitro-right img {
-  height: 630px;
-  width: 720px;
+.protein {
+  display: flex;
+  margin: 40px 0px 40px 0px;
 }
 
-.container-people-right,
-.container-roast-left,
-.container-nitro-left {
-  width: 630px;
-  height: 720px;
+.product-left,
+.product-right {
+  max-width: 50%;
 }
 
-.container-roast {
-  background-color: #026141;
+.product img {
+  max-width: 100%;
 }
 
-.container-nitro {
-  background-color: #016241;
+.product-right {
+  text-align: center;
+  width: 100%;
 }
 
-.container-protein {
-  background-color: #016241;
+.product-title {
+  color: #1f3832;
+  font-size: 40px;
+  max-width: 73%;
+  margin: auto;
 }
 
-.container-virtual {
-  background-color: #1f3832;
+.product-explanation {
+  color: #1f3832;
+  font-size: 25px;
+  max-width: 74%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.product-button {
+  border: 1px solid black;
+  border-radius: 40px;
+  max-width: max-content;
+  padding: 5px 10px 5px 10px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.product-button:hover {
+  background-color: rgba(30, 57, 50, 0.1);
+}
+
+.product-button-white {
+  border-color: white;
+}
+
+.product-button-white:hover {
+  background-color: hsla(0, 0%, 100%, 0.12);
+}
+
+.product-explanation {
+  font-weight: 340;
 }
