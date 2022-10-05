@@ -1,22 +1,11 @@
-@import "reset.css";
-
-body {
-  font-family: "Nanum Barun Gothic", dotum, sans-serif;
-  font-size: 14px;
-}
-
 .header-in {
   display: flex;
+  flex-direction: column;
   padding: 0 60px 0 30px;
   margin: 0 auto;
   max-width: 1530px;
+  min-width: 1300px;
   box-sizing: border-box;
-  justify-content: space-between;
-}
-
-.top-area {
-  margin: 0 auto;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -35,4 +24,16 @@ body {
   background-color: white;
   color: #b99764;
   border-top-color: white;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-navbar__text {
+  padding: 0 10px;
+  border-right: 0.5px solid rgba(185, 151, 100, 0.6);
+  font-size: 12px;
+  color: #b99764;
 }

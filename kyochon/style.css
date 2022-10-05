@@ -1,0 +1,96 @@
+@import "css/reset.css";
+@import "css/top-area.css";
+@import "css/nav-bar.css";
+
+body {
+  font-family: "Nanum Barun Gothic", dotum, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  padding: 0 60px 0 30px;
+  margin: 0 auto;
+  max-width: 1530px;
+  min-width: 1300px;
+}
+
+.icon {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+.topbox {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  height: 450px;
+}
+
+.middlebox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.middlebox-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.up,
+.down {
+  height: 175px;
+  position: relative;
+}
+
+.middlebox-center,
+.middlebox-right {
+  position: relative;
+  width: 480px;
+  height: 350px;
+  background-color: #f5d8ae;
+}
+
+.middlebox-right {
+  background-color: #b3e1ce;
+}
+
+.bottombox {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.bottombox-left {
+  display: flex;
+  width: 66.7%;
+}
+
+.left__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.left__text {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.left__button {
+  border: 2px black solid;
+  padding: 5px 20px;
+  text-align: center;
+  width: max-content;
+}
+
+.box__text {
+  width: 95%;
+  height: 55px;
+  background: #281c18 url(http://www.kyochon.com/images/main/bg_m_s_right.gif)
+    no-repeat right top;
+  font-size: 14px;
+  line-height: 55px;
+  color: #fff;
+}
