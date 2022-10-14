@@ -1,0 +1,153 @@
+@import "reset.css";
+
+body {
+  background-color: #f6f6f6;
+  font-family: "nanumgothic";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 25px;
+}
+
+.screan {
+  width: 350px;
+  height: 700px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 6px 16px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 16px 2px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.nav {
+  padding: 40px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  margin-left: 50px;
+}
+
+.singer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singer__photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 17px 18px 3px rgba(227, 70, 246, 0.24);
+  box-shadow: 0px 17px 18px 3px rgba(227, 70, 246, 0.24);
+}
+
+.singer__name {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+.singer__intro {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.btnbox {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 60px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.button-black {
+  background-color: black;
+  color: white;
+}
+
+.musiclist {
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.music {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+
+.music--shadow {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 16px -1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 16px -1px rgba(0, 0, 0, 0.15);
+}
+
+.music__musiclogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.music-textbox {
+  margin-left: 10px;
+}
+
+.music i {
+  text-align: end;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 15px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.artist {
+  font-size: 13px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.music-textbox__title {
+  margin-bottom: 5px;
+}
+
+.playbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 300px;
+  height: 70px;
+  background-color: #222222;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 10px 16px -1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 16px -1px rgba(0, 0, 0, 0.15);
+}
+
+.playbar-textbox__title {
+  color: white;
+}
+
+.playbar-iconbox {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
